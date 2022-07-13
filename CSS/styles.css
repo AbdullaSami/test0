@@ -17,17 +17,21 @@ hr {
   border-style: none;
   border-top: dotted 5px #F3F4ED;
   width: 5%;
+
+
 }
 
 header{
   background-color: #424642;
   width: 100%;
   position: fixed;
-  /*z-index: 999;*/
+  z-index: 999;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5% 3%;
+  padding: 0.5vw 3vw;
+
+
 }
 
 
@@ -38,12 +42,15 @@ header{
   color: #F3F4ED;
     font-size: 1.7vw;
   font-weight: 500 ;
-    padding-left: 3vw;
-    text-decoration: none;;
+    padding: 1.5vw;
+    text-decoration: none;
+    text-align: center;
 }
 
 .navigation a:hover {
-  color: #C06014
+  background-color: #C06014;
+  color: #424642 ;
+
 }
 /****************************ID'S******************************************/
 #moji-me {
@@ -51,4 +58,11 @@ header{
   width: 5vw;
 
 }
+#Contact {
+  background-color: #C06014;
+  color: #424642 ;
+}
 
+#logo {
+  padding-right: 6vw;
+}
